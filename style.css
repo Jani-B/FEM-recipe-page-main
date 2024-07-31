@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+  margin: 0%;
+  font-size: 16px;
+}
+
+:root {
+  --White: hsl(0, 0%, 100%);
+
+  --Stone_100: hsl(30, 54%, 90%);
+  --Stone_150: hsl(30, 18%, 87%);
+  --Stone_600: hsl(30, 10%, 34%);
+  --Stone_900: hsl(24, 5%, 18%);
+
+  --Brown_800: hsl(14, 45%, 36%);
+
+  --Rose_800: hsl(332, 51%, 32%);
+  --Rose_50: hsl(330, 100%, 98%);
+}
+
+h1 {
+  font-size: 32px;
+  color: var(--Stone_900);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+  color: var(--Brown_800);
+}
+
+header h1 {
+  margin: 1.5rem 2.5rem;
+}
+
+header p {
+  margin: 0rem 2.5rem;
+  margin-bottom: 1rem;
+}
+
+header img {
+  width: 100%;
+}
+
+main {
+  margin: 0rem 2.5rem;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+.preparation {
+  background-color: var(--Rose_50);
+  border-radius: 10px;
+  padding-left: 0.8rem;
+  padding-right: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+.preparation h2 {
+  font-size: 20px;
+  padding: 1rem;
+  margin-bottom: 0;
+}
+
+.preparation li {
+  padding: 0.5rem;
+  line-height: 120%;
+}
+
+.preparation li::marker {
+  color: var(--Rose_800);
+}
+
+.preparation li span {
+  /*This does work*/
+  vertical-align: middle;
+}
+
+.outfit-400 {
+  /*Regular*/
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--Stone_600);
+}
+
+.outfit-600 {
+  /*Semibold*/
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.outfit-700 {
+  /*Bold*/
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--Rose_800);
+}
+
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 100%;
+}
