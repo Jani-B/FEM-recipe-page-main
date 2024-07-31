@@ -116,23 +116,24 @@ li {
 .nutrition-list {
   list-style-type: none;
   margin-bottom: 2rem;
+  padding-left: 0;
 }
 
 .nutrition-list li {
+  padding-left: 1.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.nutrition-list li:last-child {
+  border-bottom: none;
 }
 
 .nutrition-list li p {
   text-align: left;
-}
-
-.nutritionbreak {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  border-width: 1px;
-  color: var(--Stone_100);
-  background-color: var(--Stone_100);
 }
 
 .quantity {
